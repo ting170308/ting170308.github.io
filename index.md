@@ -1,35 +1,91 @@
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>云游书景文创集</title>
   <style>
+    * {
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
     body {
       font-family: 'Helvetica Neue', sans-serif;
       margin: 0;
       padding: 0;
-      line-height: 1.6;
       background-color: #f9f9f9;
       color: #333;
     }
 
     header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 20px;
       background-color: #4b8b88;
       color: white;
-      padding: 10px 20px;
-      text-align: center;
-      position: relative;
+      position: sticky;
+      top: 0;
+      z-index: 999;
     }
 
     header img {
       height: 40px;
-      vertical-align: middle;
       margin-right: 10px;
     }
 
-    h1 {
-      display: inline;
-      font-size: 22px;
+    .site-name {
+      display: flex;
+      align-items: center;
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    nav {
+      display: flex;
+      align-items: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 15px;
+      font-size: 15px;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .menu-toggle {
+      display: none;
+      font-size: 26px;
+      cursor: pointer;
+    }
+
+    @media screen and (max-width: 768px) {
+      nav {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: #4b8b88;
+      }
+
+      nav.active {
+        display: flex;
+      }
+
+      nav a {
+        padding: 10px 0;
+        border-top: 1px solid #ffffff33;
+        margin-left: 0;
+        text-align: center;
+      }
+
+      .menu-toggle {
+        display: block;
+      }
     }
 
     section {
@@ -86,22 +142,22 @@
       text-align: center;
       padding: 15px;
     }
-
-    @media screen and (max-width: 600px) {
-      header img {
-        height: 30px;
-      }
-
-      h1 {
-        font-size: 18px;
-      }
-    }
   </style>
 </head>
 <body>
+
   <header>
-    <img src="your-logo.png" alt="云游书景Logo" />
-    <h1>云游书景文创集</h1>
+    <div class="site-name">
+      <img src="your-logo.png" alt="Logo">
+      云游书景文创集
+    </div>
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    <nav id="navbar">
+      <a href="#about">公司介绍</a>
+      <a href="#team">团队介绍</a>
+      <a href="#products">产品展示</a>
+      <a href="#contact">联系我们</a>
+    </nav>
   </header>
 
   <section id="about">
@@ -143,5 +199,12 @@
   <footer>
     &copy; 2025 云游书景文创集 | 版权所有
   </footer>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById('navbar').classList.toggle('active');
+    }
+  </script>
+
 </body>
 </html>
