@@ -1,151 +1,163 @@
-<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>云游书景传媒有限公司</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>云游书景文创集</title>
   <style>
     body {
-      font-family: 'Arial', sans-serif;
+      font-family: 'Helvetica Neue', sans-serif;
       margin: 0;
       padding: 0;
-      background: #f4f4f4;
+      line-height: 1.6;
+      background-color: #f9f9f9;
       color: #333;
     }
 
-    header {
-      background-color: #008080;
+  header {
+      background-color: #4b8b88;
       color: white;
-      padding: 20px;
+      padding: 10px 20px;
       text-align: center;
       position: relative;
     }
 
-    header img.logo {
-      width: 80px;
-      position: absolute;
-      top: 20px;
-      left: 20px;
+   header img {
+      height: 40px;
+      vertical-align: middle;
+      margin-right: 10px;
     }
 
-    nav {
-      background-color: #006666;
-      overflow: hidden;
+   h1 {
+      display: inline;
+      font-size: 22px;
     }
 
-    nav a {
-      float: left;
-      display: block;
-      color: white;
-      text-align: center;
-      padding: 14px 20px;
-      text-decoration: none;
-    }
-
-    nav a:hover {
-      background-color: #004d4d;
-    }
-
-    section {
+  section {
       padding: 40px 20px;
-      background-color: white;
-      margin: 20px;
-      border-radius: 8px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      max-width: 1000px;
+      margin: auto;
     }
 
-    .gallery {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-around;
-    }
-
-    .gallery img {
-      width: 100%;
-      max-width: 300px;
-      margin: 10px;
-      border-radius: 5px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-    }
-
-    .product-description {
-      text-align: center;
-      font-size: 16px;
+   h2 {
+      color: #4b8b88;
       margin-bottom: 20px;
-      color: #444;
+      border-left: 4px solid #4b8b88;
+      padding-left: 10px;
     }
 
-    #contact img {
-      display: block;
-      margin: 20px auto;
-      width: 200px;
+   .team-grid, .products-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
     }
 
-    footer {
-      text-align: center;
+   .team-member, .product {
+      background: white;
       padding: 20px;
-      background-color: #008080;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+      text-align: center;
+    }
+
+   .team-member img, .product img {
+      width: 100%;
+      max-height: 180px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+   .product p {
+      margin-top: 10px;
+      font-size: 15px;
+    }
+
+  .contact {
+      text-align: center;
+    }
+
+   .contact img {
+      max-width: 200px;
+      margin-top: 10px;
+    }
+
+  footer {
+      background-color: #4b8b88;
       color: white;
+      text-align: center;
+      padding: 15px;
+    }
+
+  @media screen and (max-width: 600px) {
+      header img {
+        height: 30px;
+      }
+
+   h1 {
+        font-size: 18px;
+      }
     }
   </style>
 </head>
 <body>
-
   <header>
-    <img class="logo" src="logo.png" alt="公司Logo">
-    <h1>云游书景传媒有限公司</h1>
-    <p>将文化之美带入旅途，连接书本与世界</p>
+    <img src="your-logo.png" alt="云游书景Logo" />
+    <h1>云游书景文创集</h1>
   </header>
 
-  <nav>
-    <a href="#project">项目介绍</a>
-    <a href="#company">公司介绍</a>
-    <a href="#team">团队简介</a>
-    <a href="#products">文创产品</a>
-    <a href="#contact">联系我们</a>
-  </nav>
-
-  <section id="project">
-    <h2>项目介绍</h2>
-    <p>我们致力于将教材、名著、名画与各地旅游景点结合，通过实地拍摄和沉浸式讲解制作短视频，传播文化知识，同时开发配套文创产品，打造具有教育意义的文化旅行新方式。</p>
-  </section>
-
-  <section id="company">
+  <section id="about">
     <h2>公司介绍</h2>
-    <p>云游书景传媒有限公司成立于2025年，旨在探索“文化+旅游+新媒体”的创新融合路径。我们以“书景同行，文化共游”为理念，通过数字化手段将文学经典、名画艺术与自然景观联结，激发大众对人文知识的兴趣，尤其面向青少年提供寓教于乐的内容体验。</p>
-    <p>公司主营内容包括：<br>
-    - 教育类短视频制作<br>
-    - 文创产品设计与销售<br>
-    - 文化路线规划与导览服务<br>
-    - 自媒体账号运营与合作推广</p>
-    <p>我们的愿景是：<strong>“让每一段旅途，都有文化的陪伴。”</strong></p>
+    <p>云游书景文创集是一个融合了教育、文创与旅游的新媒体项目。我们致力于将中小学教材中的名著、名画与中国各地的著名景点巧妙结合，通过拍摄短视频、制作微课和文创产品的方式，让知识“走进现实”，让学习充满趣味。我们的产品不仅适用于课堂教学，也能成为学生课后的文化补充和家长亲子共学的好助手。</p>
   </section>
 
   <section id="team">
-    <h2>团队简介</h2>
-    <p>团队成员来自岭南师范学院，拥有教育技术、新媒体运营、艺术设计等多领域背景。我们热爱旅行、热衷创作，致力于用年轻的视角传播传统文化。</p>
+    <h2>团队介绍</h2>
+    <div class="team-grid">
+      <div class="team-member">
+        <img src="team1.jpg" alt="团队成员1">
+        <h3>张晓文</h3>
+        <p>项目策划与运营，擅长内容创意与脚本撰写。</p>
+      </div>
+      <div class="team-member">
+        <img src="team2.jpg" alt="团队成员2">
+        <h3>李晨宇</h3>
+        <p>摄影剪辑与视觉包装，负责视频拍摄与后期制作。</p>
+      </div>
+      <div class="team-member">
+        <img src="team3.jpg" alt="团队成员3">
+        <h3>王丽娜</h3>
+        <p>产品设计师，专注于文创商品的开发与视觉设计。</p>
+      </div>
+    </div>
   </section>
 
   <section id="products">
     <h2>文创产品展示</h2>
-    <p class="product-description">我们的文创产品以“读万卷书，行万里路”为核心灵感，结合诗词、名著与景点特色进行设计。产品包括文化明信片、古风贴纸、知识手账、AR打卡卡片等，兼具美感与知识性，深受师生与旅行爱好者欢迎。</p>
-    <div class="gallery">
-      <img src="https://via.placeholder.com/300x200?text=明信片" alt="明信片">
-      <img src="https://via.placeholder.com/300x200?text=知识贴纸" alt="贴纸">
-      <img src="https://via.placeholder.com/300x200?text=AR手账" alt="手账">
+    <div class="products-grid">
+      <div class="product">
+        <img src="product1.jpg" alt="明信片套装">
+        <p>《云游诗画》明信片套装：将《登鹳雀楼》《早发白帝城》等古诗与对应景点摄影融合，寓教于游。</p>
+      </div>
+      <div class="product">
+        <img src="product2.jpg" alt="书签组合">
+        <p>《书景之间》书签组合：精选古典文学与风景相结合，制作高质感镂空书签，适合赠送与收藏。</p>
+      </div>
+      <div class="product">
+        <img src="product3.jpg" alt="手账贴纸">
+        <p>《古画游记》手账贴纸：将教材中的名画设计为趣味贴纸，提升学习趣味性，适合学生与手帐爱好者。</p>
+      </div>
     </div>
   </section>
 
   <section id="contact">
     <h2>联系我们</h2>
-    <p style="text-align:center;">如需了解合作详情，欢迎关注我们的微信公众号：</p>
-    <img src="weixin-qrcode.png" alt="微信二维码">
-    <p style="text-align:center;">或发送邮件至：<a href="mailto:contact@yunyoushujing.com">contact@yunyoushujing.com</a></p>
+    <div class="contact">
+      <p>关注我们的微信公众号，获取最新内容与产品信息：</p>
+      <img src="your-wechat.png" alt="微信公众号二维码" />
+    </div>
   </section>
 
   <footer>
-    <p>© 2025 云游书景传媒有限公司 | All Rights Reserved</p>
+    &copy; 2025 云游书景文创集 | 版权所有
   </footer>
-
 </body>
 </html>
