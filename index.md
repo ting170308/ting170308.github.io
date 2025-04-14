@@ -13,7 +13,7 @@
       color: #333;
     }
 
-  header {
+    header {
       background-color: #4b8b88;
       color: white;
       padding: 10px 20px;
@@ -21,37 +21,37 @@
       position: relative;
     }
 
-   header img {
+    header img {
       height: 40px;
       vertical-align: middle;
       margin-right: 10px;
     }
 
-   h1 {
+    h1 {
       display: inline;
       font-size: 22px;
     }
 
-  section {
+    section {
       padding: 40px 20px;
       max-width: 1000px;
       margin: auto;
     }
 
-   h2 {
+    h2 {
       color: #4b8b88;
       margin-bottom: 20px;
       border-left: 4px solid #4b8b88;
       padding-left: 10px;
     }
 
-   .team-grid, .products-grid {
+    .products-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
       gap: 20px;
     }
 
-   .team-member, .product {
+    .product {
       background: white;
       padding: 20px;
       border-radius: 10px;
@@ -59,40 +59,40 @@
       text-align: center;
     }
 
-   .team-member img, .product img {
+    .product img {
       width: 100%;
       max-height: 180px;
       object-fit: cover;
       border-radius: 8px;
     }
 
-   .product p {
+    .product p {
       margin-top: 10px;
       font-size: 15px;
     }
 
-  .contact {
+    .contact {
       text-align: center;
     }
 
-   .contact img {
+    .contact img {
       max-width: 200px;
       margin-top: 10px;
     }
 
-  footer {
+    footer {
       background-color: #4b8b88;
       color: white;
       text-align: center;
       padding: 15px;
     }
 
-  @media screen and (max-width: 600px) {
+    @media screen and (max-width: 600px) {
       header img {
         height: 30px;
       }
 
-   h1 {
+      h1 {
         font-size: 18px;
       }
     }
@@ -111,23 +111,7 @@
 
   <section id="team">
     <h2>团队介绍</h2>
-    <div class="team-grid">
-      <div class="team-member">
-        <img src="team1.jpg" alt="团队成员1">
-        <h3>张晓文</h3>
-        <p>项目策划与运营，擅长内容创意与脚本撰写。</p>
-      </div>
-      <div class="team-member">
-        <img src="team2.jpg" alt="团队成员2">
-        <h3>李晨宇</h3>
-        <p>摄影剪辑与视觉包装，负责视频拍摄与后期制作。</p>
-      </div>
-      <div class="team-member">
-        <img src="team3.jpg" alt="团队成员3">
-        <h3>王丽娜</h3>
-        <p>产品设计师，专注于文创商品的开发与视觉设计。</p>
-      </div>
-    </div>
+    <p>我们是一支由教育技术、设计、影视制作等多学科背景成员组成的年轻团队，怀着对知识传播的热情与对传统文化的敬意，启动了“云游书景文创集”项目。我们的初心是让教材不再“死板”，而是“活”在风景与生活中；我们的目标是借助文创产品与数字内容的结合，打造属于新时代青少年的文化教育新体验。</p>
   </section>
 
   <section id="products">
