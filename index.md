@@ -257,6 +257,14 @@
       <img src="douyin.png" alt="抖音号二维码" />
     </div>
   </section>
+<script>
+  const btn = document.getElementById("toggleBtn");
+  const content = document.getElementById("team-content");
+  btn.onclick = () => {
+    content.classList.toggle("short");
+    btn.innerText = content.classList.contains("short") ? "展开更多" : "收起内容";
+  };
+</script>
 
 </body>
 </html>
