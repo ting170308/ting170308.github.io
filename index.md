@@ -170,23 +170,65 @@
     <p>我们是一支由教育技术、设计、影视制作等多学科背景成员组成的年轻团队，怀着对知识传播的热情与对传统文化的敬意，启动了“云游书景文创集”项目。我们的初心是让教材不再“死板”，而是“活”在风景与生活中；我们的目标是借助文创产品与数字内容的结合，打造属于新时代青少年的文化教育新体验。</p>
   </section>
 
-  <section id="products">
-    <h2>文创产品展示</h2>
-    <div class="products-grid">
-      <div class="product">
-        <img src="product1.jpg" alt="明信片套装">
-        <p>《云游诗画》明信片套装：将《登鹳雀楼》《早发白帝城》等古诗与对应景点摄影融合，寓教于游。</p>
-      </div>
-      <div class="product">
-        <img src="product2.jpg" alt="书签组合">
-        <p>《书景之间》书签组合：精选古典文学与风景相结合，制作高质感镂空书签，适合赠送与收藏。</p>
-      </div>
-      <div class="product">
-        <img src="product3.jpg" alt="手账贴纸">
-        <p>《古画游记》手账贴纸：将教材中的名画设计为趣味贴纸，提升学习趣味性，适合学生与手帐爱好者。</p>
-      </div>
+<section id="products">
+  <h2>文创产品展示</h2>
+
+  <div class="products-grid">
+    <div class="product">
+      <img src="product1.jpg" alt="明信片套装">
+      <p>《云游诗画》明信片套装：将《登鹳雀楼》《早发白帝城》等古诗与对应景点摄影融合，寓教于游。</p>
     </div>
-  </section>
+    <div class="product">
+      <img src="product2.jpg" alt="书签组合">
+      <p>《书景之间》书签组合：精选古典文学与风景相结合，制作高质感镂空书签，适合赠送与收藏。</p>
+    </div>
+    <div class="product">
+      <img src="product3.jpg" alt="手账贴纸">
+      <p>《古画游记》手账贴纸：将教材中的名画设计为趣味贴纸，提升学习趣味性，适合学生与手帐爱好者。</p>
+    </div>
+  </div>
+
+  <h3 style="margin-top: 50px; color: #4b8b88;">《千里江山图》系列</h3>
+  <div class="product">
+    <img src="product4.jpg" alt="千里江山图系列">
+    <p>灵感来源于中国十大传世名画之一《千里江山图》，融合国风与实用性，打造兼具收藏与日用的文创产品：</p>
+    <ul>
+      <li>钥匙扣</li>
+      <li>冰箱贴</li>
+      <li>透卡</li>
+      <li>帆布袋</li>
+      <li>书签</li>
+    </ul>
+  </div>
+
+  <h3 style="margin-top: 50px; color: #4b8b88;">《红楼梦》系列</h3>
+  <div class="product">
+    <img src="product5.jpg" alt="红楼梦系列">
+    <p>以《红楼梦》经典人物与场景为设计灵感，打造具有文学韵味的文创衍生品：</p>
+    <ul>
+      <li>钥匙扣</li>
+      <li>冰箱贴</li>
+      <li>透卡</li>
+      <li>徽章</li>
+      <li>便利贴</li>
+    </ul>
+  </div>
+
+  <h3 style="margin-top: 50px; color: #4b8b88;">《我与地坛》系列</h3>
+  <div class="product">
+    <img src="product6.jpg" alt="我与地坛系列">
+    <p>结合史铁生散文《我与地坛》的人文情怀与视觉意境，推出文艺而富有哲思的主题周边：</p>
+    <ul>
+      <li>明信片</li>
+      <li>邮票</li>
+      <li>贴纸</li>
+      <li>胶片拍立得</li>
+      <li>木质挂件</li>
+      <li>帆布包</li>
+    </ul>
+  </div>
+</section>
+ 
 
   <section id="contact">
     <h2>联系我们</h2>
