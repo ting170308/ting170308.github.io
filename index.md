@@ -138,46 +138,88 @@
   <h2>产品展示</h2>
 
   <!-- 产品一：《千里江山图》 -->
-  <div class="product-gallery" id="jiangshan">
-    <h3>《千里江山图》系列</h3>
-    <div class="product-list">
-      <div class="product-item">
-        <img src="images/jiangshan_notebook.jpg" alt="千里江山图笔记本">
-        <h4>千里江山图笔记本</h4>
-        <p><strong>定价：</strong>35元</p>
-        <p><strong>规格：</strong>A5，80页</p>
-        <p><strong>材质：</strong>米黄道林纸</p>
-      </div>
-      <div class="product-item">
-        <img src="images/jiangshan_pouch.jpg" alt="千里江山图帆布袋">
-        <h4>千里江山图帆布袋</h4>
-        <p><strong>定价：</strong>39元</p>
-        <p><strong>规格：</strong>35cm × 40cm</p>
-        <p><strong>材质：</strong>棉麻帆布</p>
-      </div>
+<h2>《千里江山图》系列</h2>
+  <div class="product-list">
+ <!-- 透卡 -->
+    <div class="product-item">
+      <img src="images/jiangshan_touka.jpg" alt="千里江山图透卡">
+      <h3>透卡</h3>
+      <p>定价：5元/张</p>
+      <p>规格：85mm × 108mm</p>
+      <p>材质：透明PVC</p>
+    </div>
+ <!-- 钥匙扣 -->
+    <div class="product-item">
+      <img src="images/jiangshan_keychain.jpg" alt="千里江山图钥匙扣">
+      <h3>钥匙扣</h3>
+      <p>定价：8元/个</p>
+      <p>规格：30mm × 30mm</p>
+      <p>材质：透明亚克力板</p>
+    </div>
+ <!-- 便利贴 -->
+    <div class="product-item">
+      <img src="images/jiangshan_notes.jpg" alt="千里江山图便利贴">
+      <h3>便利贴</h3>
+      <p>定价：10元/本</p>
+      <p>规格：30mm × 30mm</p>
+      <p>材质：书写纸、环保胶水</p>
+    </div>
+ <!-- 帆布包 -->
+    <div class="product-item">
+      <img src="images/jiangshan_bag.jpg" alt="千里江山图帆布包">
+      <h3>帆布包</h3>
+      <p>定价：48元/件</p>
+      <p>规格：35cm × 40cm</p>
+      <p>材质：牛津布</p>
     </div>
   </div>
 
-  <!-- 产品二：《红楼梦》 -->
-  <div class="product-gallery" id="honglou">
-    <h3>《红楼梦》系列</h3>
-    <div class="product-list">
-      <div class="product-item">
-        <img src="images/honglou_fan1.jpg" alt="红楼梦团扇1">
-        <img src="images/honglou_fan2.jpg" alt="红楼梦团扇2">
-        <h4>红楼梦团扇</h4>
-        <p><strong>定价：</strong>29.9元</p>
-        <p><strong>规格：</strong>直径18cm</p>
-        <p><strong>材质：</strong>仿绢布、竹骨</p>
-      </div>
-      <div class="product-item">
-        <img src="images/honglou_notebook1.jpg" alt="红楼梦手账本1">
-        <img src="images/honglou_notebook2.jpg" alt="红楼梦手账本2">
-        <h4>红楼梦手账本</h4>
-        <p><strong>定价：</strong>42元</p>
-        <p><strong>规格：</strong>B6，128页</p>
-        <p><strong>材质：</strong>特种封面纸+米黄内页</p>
-      </div>
+  <!-- 产品二：红楼梦系列 -->
+  <h2>《红楼梦》系列</h2>
+  <div class="product-list">   <!-- 便利贴（2图） -->
+    <div class="product-item two-images">
+      <img src="images/honglou_notes1.jpg" alt="红楼梦便利贴1">
+      <img src="images/honglou_notes2.jpg" alt="红楼梦便利贴2">
+      <h3>便利贴</h3>
+      <p>定价：单本3元，两本5元</p>
+      <p>规格：30mm × 30mm</p>
+      <p>材质：优质纸张，环保油墨</p>
+    </div>
+<!-- 透卡（2图） -->
+    <div class="product-item two-images">
+      <img src="images/honglou_touka1.jpg" alt="红楼梦透卡1">
+      <img src="images/honglou_touka2.jpg" alt="红楼梦透卡2">
+      <h3>透卡</h3>
+      <p>定价：5元/张</p>
+      <p>规格：85mm × 108mm</p>
+      <p>材质：透明PVC</p>
+    </div>
+  <!-- 钥匙扣（2图） -->
+    <div class="product-item two-images">
+      <img src="images/honglou_keychain1.jpg" alt="红楼梦钥匙扣1">
+      <img src="images/honglou_keychain2.jpg" alt="红楼梦钥匙扣2">
+      <h3>钥匙扣</h3>
+      <p>定价：8元/个</p>
+      <p>规格：30mm × 30mm</p>
+      <p>材质：透明亚克力板</p>
+    </div>
+   <!-- 毛绒徽章（2图） -->
+    <div class="product-item two-images">
+      <img src="images/honglou_badge1.jpg" alt="红楼梦徽章1">
+      <img src="images/honglou_badge2.jpg" alt="红楼梦徽章2">
+      <h3>毛绒徽章</h3>
+      <p>定价：10元/个</p>
+      <p>规格：58mm × 58mm</p>
+      <p>材质：马口铁+塑料膜+毛绒材料</p>
+    </div>
+<!-- 冰箱贴（2图） -->
+    <div class="product-item two-images">
+      <img src="images/honglou_fridge1.jpg" alt="红楼梦冰箱贴1">
+      <img src="images/honglou_fridge2.jpg" alt="红楼梦冰箱贴2">
+      <h3>冰箱贴</h3>
+      <p>定价：10元/个</p>
+      <p>规格：40mm × 40mm</p>
+      <p>材质：橡胶软磁贴+透明亚克力</p>
     </div>
   </div>
 
