@@ -210,7 +210,7 @@
 </section>
 
 
-  <section class="section" id="contact">
+ <section class="section" id="contact">
     <h2>联系我们</h2>
     <p>联系电话：17817964305</p>
     <div class="contact">
