@@ -135,94 +135,81 @@
     </ul>
   </section>
 
-  <section class="product-gallery" id="products">
-    <h2>《千里江山图》系列</h2>
-    <div class="product-list">
-      <div class="product-item">
-        <img src="images/jiangshan_touka.jpg" alt="千里江山图透卡">
-        <h3>透卡</h3>
-        <p>定价：5元/张</p>
-        <p>规格：85mm × 108mm</p>
-        <p>材质：透明PVC</p>
-      </div>
-      <div class="product-item">
-        <img src="images/jiangshan_keychain.jpg" alt="千里江山图钥匙扣">
-        <h3>钥匙扣</h3>
-        <p>定价：8元/个</p>
-        <p>规格：30mm × 30mm</p>
-        <p>材质：透明亚克力板</p>
-      </div>
-      <div class="product-item">
-        <img src="images/jiangshan_notes.jpg" alt="千里江山图便利贴">
-        <h3>便利贴</h3>
-        <p>定价：10元/本</p>
-        <p>规格：30mm × 30mm</p>
-        <p>材质：书写纸、环保胶水</p>
-      </div>
-      <div class="product-item">
-        <img src="images/jiangshan_bag.jpg" alt="千里江山图帆布包">
-        <h3>帆布包</h3>
-        <p>定价：48元/件</p>
-        <p>规格：35cm × 40cm</p>
-        <p>材质：牛津布</p>
-      </div>
-    </div>
+<section class="product-gallery" id="products">
+  <h2>产品展示</h2>
 
-    <h2>《红楼梦》系列</h2>
-    <div class="product-list">
-      <div class="product-item two-images">
-        <img src="images/honglou_notes1.jpg" alt="红楼梦便利贴1">
-        <img src="images/honglou_notes2.jpg" alt="红楼梦便利贴2">
-        <h3>便利贴</h3>
-        <p>定价：单本3元，两本5元</p>
-        <p>规格：30mm × 30mm</p>
-        <p>材质：优质纸张，环保油墨</p>
-      </div>
-      <div class="product-item two-images">
-        <img src="images/honglou_touka1.jpg" alt="红楼梦透卡1">
-        <img src="images/honglou_touka2.jpg" alt="红楼梦透卡2">
-        <h3>透卡</h3>
-        <p>定价：5元/张</p>
-        <p>规格：85mm × 108mm</p>
-        <p>材质：透明PVC</p>
-      </div>
-      <div class="product-item two-images">
-        <img src="images/honglou_keychain1.jpg" alt="红楼梦钥匙扣1">
-        <img src="images/honglou_keychain2.jpg" alt="红楼梦钥匙扣2">
-        <h3>钥匙扣</h3>
-        <p>定价：8元/个</p>
-        <p>规格：30mm × 30mm</p>
-        <p>材质：透明亚克力板</p>
-      </div>
-      <div class="product-item two-images">
-        <img src="images/honglou_badge1.jpg" alt="红楼梦徽章1">
-        <img src="images/honglou_badge2.jpg" alt="红楼梦徽章2">
-        <h3>毛绒徽章</h3>
-        <p>定价：10元/个</p>
-        <p>规格：58mm × 58mm</p>
-        <p>材质：马口铁+塑料膜+毛绒材料</p>
-      </div>
-      <div class="product-item two-images">
-        <img src="images/honglou_fridge1.jpg" alt="红楼梦冰箱贴1">
-        <img src="images/honglou_fridge2.jpg" alt="红楼梦冰箱贴2">
-        <h3>冰箱贴</h3>
-        <p>定价：10元/个</p>
-        <p>规格：40mm × 40mm</p>
-        <p>材质：橡胶软磁贴+透明亚克力</p>
-      </div>
-    </div>
-
-    <h2>《我与地坛》系列</h2>
+  <!-- 产品一：《千里江山图》 -->
+  <div class="product-gallery" id="jiangshan">
+    <h3>《千里江山图》系列</h3>
     <div class="product-list">
       <div class="product-item">
-        <img src="images/ditan_postcard.jpg" alt="我与地坛明信片套组">
-        <h3>明信片</h3>
-        <p>定价：5元/张，套组19.9元</p>
-        <p>规格：148mm × 100mm</p>
-        <p>材质：卡纸、哑粉纸、珠光纸</p>
+        <img src="images/jiangshan_notebook.jpg" alt="千里江山图笔记本">
+        <h4>千里江山图笔记本</h4>
+        <p><strong>定价：</strong>35元</p>
+        <p><strong>规格：</strong>A5，80页</p>
+        <p><strong>材质：</strong>米黄道林纸</p>
+      </div>
+      <div class="product-item">
+        <img src="images/jiangshan_pouch.jpg" alt="千里江山图帆布袋">
+        <h4>千里江山图帆布袋</h4>
+        <p><strong>定价：</strong>39元</p>
+        <p><strong>规格：</strong>35cm × 40cm</p>
+        <p><strong>材质：</strong>棉麻帆布</p>
       </div>
     </div>
-  </section>
+  </div>
+
+  <!-- 产品二：《红楼梦》 -->
+  <div class="product-gallery" id="honglou">
+    <h3>《红楼梦》系列</h3>
+    <div class="product-list">
+      <div class="product-item">
+        <img src="images/honglou_fan1.jpg" alt="红楼梦团扇1">
+        <img src="images/honglou_fan2.jpg" alt="红楼梦团扇2">
+        <h4>红楼梦团扇</h4>
+        <p><strong>定价：</strong>29.9元</p>
+        <p><strong>规格：</strong>直径18cm</p>
+        <p><strong>材质：</strong>仿绢布、竹骨</p>
+      </div>
+      <div class="product-item">
+        <img src="images/honglou_notebook1.jpg" alt="红楼梦手账本1">
+        <img src="images/honglou_notebook2.jpg" alt="红楼梦手账本2">
+        <h4>红楼梦手账本</h4>
+        <p><strong>定价：</strong>42元</p>
+        <p><strong>规格：</strong>B6，128页</p>
+        <p><strong>材质：</strong>特种封面纸+米黄内页</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- 产品三：《我与地坛》 -->
+  <div class="product-gallery" id="ditan">
+    <h3>《我与地坛》系列</h3>
+    <div class="product-list">
+      <div class="product-item">
+        <img src="images/ditan_set.jpg" alt="我与地坛明信片套组">
+        <h4>明信片套组</h4>
+        <p><strong>定价：</strong>5元/张，19.9元/组</p>
+        <p><strong>规格：</strong>148mm × 100mm</p>
+        <p><strong>材质：</strong>卡纸、哑粉纸、珠光纸</p>
+        <p><strong>产品描述：</strong></p>
+        <p style="text-align: left; padding: 0 10px;">
+          这组以《我与地坛》为灵感的明信片，将文学哲思与艺术设计深度融合，采用蓝白主调与冷色视觉语言，呈现四种风格各异的场景：
+        </p>
+        <ul style="text-align: left; padding: 0 20px;">
+          <li><strong>清新文艺：</strong>线条色块勾勒地坛树木与长椅，配以诗意短句，展现自然与人文的灵动交融。</li>
+          <li><strong>冷峻深沉：</strong>雪地与轮椅解构融合，“我已不在地坛，地坛在我”承载生命哲思。</li>
+          <li><strong>静谧深邃：</strong>蓝色调勾勒树木夹道，英文“I AND THE TEMPLE OF EARTH”赋予文艺国际气质。</li>
+          <li><strong>内省冷寂：</strong>雪景中树影与轮椅并置，中文与英文“我与地坛”诗意共鸣，引导心灵的沉思。</li>
+        </ul>
+        <p style="text-align: left; padding: 0 10px;">
+          这一系列不仅是视觉产品，更是文化传播载体，在冷静色调中传递出地坛所承载的生命厚度与精神力量，为观者提供心灵的栖息之所。
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
 
   <section class="section" id="contact">
     <h2>联系我们</h2>
