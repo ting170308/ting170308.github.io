@@ -102,7 +102,7 @@
 <body>
 
   <header>
-    <img src="file:///C:/Users/fzt/Desktop/yunyou-web/images/logo.png" alt="云游书景文创集 Logo" />
+    <img src="https://github.com/ting170308/ting170308.github.io/blob/main/logo.png" alt="云游书景文创集 Logo" />
     <nav>
       <a href="#about">关于我们</a>
       <a href="#team">团队介绍</a>
