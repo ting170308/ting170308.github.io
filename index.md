@@ -140,7 +140,6 @@
         <li>📈 商业运营的科学性管理</li>
       </ul>
   <p>这支复合型团队将持续以专业能力推动文化创意产业的创新发展。</p>
-    </div>
 </section>
 
 <section class="product-gallery" id="products"> 
