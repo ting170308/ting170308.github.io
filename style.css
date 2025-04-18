@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+/* 主题变量设置 */
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -47,14 +48,48 @@
     --input: 217.2 32.6% 17.5%;
     --ring: 212.7 26.8% 83.9%;
   }
-}
 
-@layer base {
   * {
     @apply border-border;
   }
+
   body {
     @apply bg-background text-foreground;
   }
 }
- 
+
+/* 产品展示样式（组件层） */
+@layer components {
+  .product-gallery {
+    @apply px-4 py-10 bg-muted;
+  }
+
+  .product-gallery h2,
+  .product-gallery h3 {
+    @apply text-center text-2xl font-bold text-foreground mb-6;
+  }
+
+  .product-list {
+    @apply flex flex-wrap justify-center gap-6;
+  }
+
+  .product-item {
+    @apply bg-card text-card-foreground rounded-lg shadow-md p-4 max-w-xs w-full;
+  }
+
+  .product-item img {
+    @apply w-full rounded-md mb-3;
+  }
+
+  .product-item h4 {
+    @apply text-lg font-semibold mt-2;
+  }
+
+  .product-item p {
+    @apply text-sm text-muted-foreground mt-1;
+  }
+
+  .product-item ul {
+    @apply list-disc pl-5 mt-2 text-sm text-muted-foreground text-left;
+  }
+}
