@@ -172,82 +172,116 @@
 </section>
 
 
-  <section class="section" id="products">
-    <h2>文创产品</h2>
-    <div class="products">
+ <section class="product-gallery">
+  <!-- 产品一：千里江山图系列 -->
+  <h2>《千里江山图》系列</h2>
+  <div class="product-list">
 
-      <!-- 千里江山图系列 -->
-      <div class="product">
-        <img src="qianli_keychain.jpg" alt="千里江山图钥匙扣" />
-        <div class="product-description">千里江山图钥匙扣</div>
-      </div>
-      <div class="product">
-        <img src="qianli_fridge.jpg" alt="千里江山图冰箱贴" />
-        <div class="product-description">千里江山图冰箱贴</div>
-      </div>
-      <div class="product">
-        <img src="qianli_card.jpg" alt="千里江山图透卡" />
-        <div class="product-description">千里江山图透卡</div>
-      </div>
-      <div class="product">
-        <img src="qianli_bag.jpg" alt="千里江山图帆布袋" />
-        <div class="product-description">千里江山图帆布袋</div>
-      </div>
-      <div class="product">
-        <img src="qianli_bookmark.jpg" alt="千里江山图书签" />
-        <div class="product-description">千里江山图书签</div>
-      </div>
-
-      <!-- 红楼梦系列 -->
-      <div class="product">
-        <img src="honglou_keychain.jpg" alt="红楼梦钥匙扣" />
-        <div class="product-description">红楼梦钥匙扣</div>
-      </div>
-      <div class="product">
-        <img src="honglou_fridge.jpg" alt="红楼梦冰箱贴" />
-        <div class="product-description">红楼梦冰箱贴</div>
-      </div>
-      <div class="product">
-        <img src="honglou_card.jpg" alt="红楼梦透卡" />
-        <div class="product-description">红楼梦透卡</div>
-      </div>
-      <div class="product">
-        <img src="honglou_badge.jpg" alt="红楼梦徽章" />
-        <div class="product-description">红楼梦徽章</div>
-      </div>
-      <div class="product">
-        <img src="honglou_note.jpg" alt="红楼梦便利贴" />
-        <div class="product-description">红楼梦便利贴</div>
-      </div>
-
-      <!-- 我与地坛系列 -->
-      <div class="product">
-        <img src="ditan_postcard.jpg" alt="我与地坛明信片" />
-        <div class="product-description">我与地坛明信片</div>
-      </div>
-      <div class="product">
-        <img src="ditan_stamp.jpg" alt="我与地坛邮票" />
-        <div class="product-description">我与地坛邮票</div>
-      </div>
-      <div class="product">
-        <img src="ditan_sticker.jpg" alt="我与地坛贴纸" />
-        <div class="product-description">我与地坛贴纸</div>
-      </div>
-      <div class="product">
-        <img src="ditan_polaroid.jpg" alt="我与地坛胶片拍立得" />
-        <div class="product-description">我与地坛胶片拍立得</div>
-      </div>
-      <div class="product">
-        <img src="ditan_wood.jpg" alt="我与地坛木质挂件" />
-        <div class="product-description">我与地坛木质挂件</div>
-      </div>
-      <div class="product">
-        <img src="ditan_bag.jpg" alt="我与地坛帆布包" />
-        <div class="product-description">我与地坛帆布包</div>
-      </div>
-
+    <!-- 透卡 -->
+    <div class="product-item">
+      <img src="images/jiangshan_touka.jpg" alt="千里江山图透卡">
+      <h3>透卡</h3>
+      <p>定价：5元/张</p>
+      <p>规格：85mm × 108mm</p>
+      <p>材质：透明PVC</p>
     </div>
-  </section>
+
+    <!-- 钥匙扣 -->
+    <div class="product-item">
+      <img src="images/jiangshan_keychain.jpg" alt="千里江山图钥匙扣">
+      <h3>钥匙扣</h3>
+      <p>定价：8元/个</p>
+      <p>规格：30mm × 30mm</p>
+      <p>材质：透明亚克力板</p>
+    </div>
+
+    <!-- 便利贴 -->
+    <div class="product-item">
+      <img src="images/jiangshan_notes.jpg" alt="千里江山图便利贴">
+      <h3>便利贴</h3>
+      <p>定价：10元/本</p>
+      <p>规格：30mm × 30mm</p>
+      <p>材质：书写纸、环保胶水</p>
+    </div>
+
+    <!-- 帆布包 -->
+    <div class="product-item">
+      <img src="images/jiangshan_bag.jpg" alt="千里江山图帆布包">
+      <h3>帆布包</h3>
+      <p>定价：48元/件</p>
+      <p>规格：35cm × 40cm</p>
+      <p>材质：牛津布</p>
+    </div>
+  </div>
+
+  <!-- 产品二：红楼梦系列 -->
+  <h2>《红楼梦》系列</h2>
+  <div class="product-list">
+
+    <!-- 便利贴（2图） -->
+    <div class="product-item two-images">
+      <img src="images/honglou_notes1.jpg" alt="红楼梦便利贴1">
+      <img src="images/honglou_notes2.jpg" alt="红楼梦便利贴2">
+      <h3>便利贴</h3>
+      <p>定价：单本3元，两本5元</p>
+      <p>规格：30mm × 30mm</p>
+      <p>材质：优质纸张，环保油墨</p>
+    </div>
+
+    <!-- 透卡（2图） -->
+    <div class="product-item two-images">
+      <img src="images/honglou_touka1.jpg" alt="红楼梦透卡1">
+      <img src="images/honglou_touka2.jpg" alt="红楼梦透卡2">
+      <h3>透卡</h3>
+      <p>定价：5元/张</p>
+      <p>规格：85mm × 108mm</p>
+      <p>材质：透明PVC</p>
+    </div>
+
+    <!-- 钥匙扣（2图） -->
+    <div class="product-item two-images">
+      <img src="images/honglou_keychain1.jpg" alt="红楼梦钥匙扣1">
+      <img src="images/honglou_keychain2.jpg" alt="红楼梦钥匙扣2">
+      <h3>钥匙扣</h3>
+      <p>定价：8元/个</p>
+      <p>规格：30mm × 30mm</p>
+      <p>材质：透明亚克力板</p>
+    </div>
+
+    <!-- 毛绒徽章（2图） -->
+    <div class="product-item two-images">
+      <img src="images/honglou_badge1.jpg" alt="红楼梦徽章1">
+      <img src="images/honglou_badge2.jpg" alt="红楼梦徽章2">
+      <h3>毛绒徽章</h3>
+      <p>定价：10元/个</p>
+      <p>规格：58mm × 58mm</p>
+      <p>材质：马口铁+塑料膜+毛绒材料</p>
+    </div>
+
+    <!-- 冰箱贴（2图） -->
+    <div class="product-item two-images">
+      <img src="images/honglou_fridge1.jpg" alt="红楼梦冰箱贴1">
+      <img src="images/honglou_fridge2.jpg" alt="红楼梦冰箱贴2">
+      <h3>冰箱贴</h3>
+      <p>定价：10元/个</p>
+      <p>规格：40mm × 40mm</p>
+      <p>材质：橡胶软磁贴+透明亚克力</p>
+    </div>
+  </div>
+
+  <!-- 产品三：我与地坛系列 -->
+  <h2>《我与地坛》系列</h2>
+  <div class="product-list">
+    <div class="product-item">
+      <img src="images/ditan_postcard.jpg" alt="我与地坛明信片套组">
+      <h3>明信片</h3>
+      <p>定价：5元/张，套组19.9元</p>
+      <p>规格：148mm × 100mm</p>
+      <p>材质：卡纸、哑粉纸、珠光纸</p>
+    </div>
+  </div>
+</section>
+
 
   <section class="section" id="contact">
     <h2>联系我们</h2>
