@@ -181,73 +181,48 @@
     </div>
   </div>
 
-  <!-- 产品三：《我与地坛》 -->
-  <div class="product-gallery" id="ditan">
-    <h3>《我与地坛》系列</h3>
-
-    <!-- 明信片 -->
-    <div class="product-subsection">
-      <h4>明信片</h4>
-      <div class="product-list">
-        <div class="product-item">
-          <img src="images/ditan-postcard-1.jpg" alt="地坛明信片1">
-          <img src="images/ditan-postcard-2.jpg" alt="地坛明信片2">
-          <img src="images/ditan-postcard-3.jpg" alt="地坛明信片3">
-          <img src="images/ditan-postcard-4.jpg" alt="地坛明信片4">
-          <p><strong>定价：</strong>单张5元／张，套组19.9元／组</p>
-          <p><strong>规格：</strong>148mm × 100mm</p>
-          <p><strong>材料：</strong>卡纸、哑粉纸、珠光纸</p>
-          <p>以蓝白冷色调绘出自然与哲思之景，传递生命沉思与地坛文化气息。</p>
-        </div>
-      </div>
+ <!-- 产品三：《我与地坛》 -->
+<div class="product-gallery" id="ditan">
+  <h3>《我与地坛》系列</h3>
+  <div class="product-list">
+    <div class="product-item">
+      <img src="images/ditan_postcard.jpg" alt="我与地坛明信片">
+      <h4>我与地坛明信片</h4>
+      <p><strong>定价：</strong>单张5元／张，套组19.9元／组</p>
+      <p><strong>规格：</strong>148mm × 100mm</p>
+      <p><strong>材质：</strong>卡纸、哑粉纸、珠光纸</p>
     </div>
-
-    <!-- 邮票 / 贴纸 -->
-    <div class="product-subsection">
-      <h4>文创邮票／贴纸</h4>
-      <div class="product-list">
-        <div class="product-item">
-          <img src="images/ditan-stamp-1.jpg" alt="邮票1">
-          <img src="images/ditan-sticker-1.jpg" alt="贴纸1">
-          <img src="images/ditan-stamp-set.jpg" alt="邮票贴纸套装">
-          <p><strong>定价：</strong>邮票5元/枚，套装12元；贴纸3元/张，套装8元</p>
-          <p><strong>规格：</strong>30mm × 30mm</p>
-          <p><strong>材料：</strong>铜版纸、和纸、环保胶</p>
-          <p>在小小方寸间展现《我与地坛》的精神意象，寓意深远。</p>
-        </div>
-      </div>
+    <div class="product-item">
+      <img src="images/ditan_stamp_sticker.jpg" alt="我与地坛文创邮票贴纸">
+      <h4>我与地坛文创邮票／贴纸</h4>
+      <p><strong>定价：</strong>邮票5元/枚，套装12元；贴纸3元/张，套装8元</p>
+      <p><strong>规格：</strong>30mm × 30mm</p>
+      <p><strong>材质：</strong>铜版纸、和纸、环保胶</p>
     </div>
-
-    <!-- 帆布包与木质挂件 -->
-    <div class="product-subsection">
-      <h4>帆布包与木质挂件</h4>
-      <div class="product-list">
-        <div class="product-item">
-          <img src="images/ditan-bag.jpg" alt="帆布包">
-          <img src="images/ditan-hanging.jpg" alt="木质挂件">
-          <p><strong>定价：</strong>帆布包48元，挂件28元，套组69元</p>
-          <p><strong>规格：</strong>包：35cm×40cm；挂件：5×3cm+流苏12cm</p>
-          <p><strong>材料：</strong>牛津布、胡桃木、亚克力、金属、人造丝</p>
-          <p>让地坛哲思融入日常生活，构筑可随身携带的精神风景。</p>
-        </div>
-      </div>
+    <div class="product-item">
+      <img src="images/ditan_bag.jpg" alt="我与地坛帆布包">
+      <h4>我与地坛帆布包</h4>
+      <p><strong>定价：</strong>48元</p>
+      <p><strong>规格：</strong>35cm × 40cm</p>
+      <p><strong>材质：</strong>牛津布</p>
     </div>
-
-    <!-- 透光卡 / 拍立得 -->
-    <div class="product-subsection">
-      <h4>投影透光卡／胶片拍立得</h4>
-      <div class="product-list">
-        <div class="product-item">
-          <img src="images/ditan-polaroid-large.jpg" alt="大拍立得">
-          <img src="images/ditan-polaroid-small.jpg" alt="小拍立得">
-          <p><strong>定价：</strong>大尺寸15元／张，小尺寸10元／张</p>
-          <p><strong>规格：</strong>大：86×108mm，小：54×86mm</p>
-          <p><strong>材料：</strong>PVC、白卡纸</p>
-          <p>以拍立得形式定格地坛的静美，让文学的感动“照进现实”。</p>
-        </div>
-      </div>
+    <div class="product-item">
+      <img src="images/ditan_hanging.jpg" alt="我与地坛木质挂件">
+      <h4>我与地坛木质挂件</h4>
+      <p><strong>定价：</strong>28元</p>
+      <p><strong>规格：</strong>主体5cm × 3cm，加流苏约12cm</p>
+      <p><strong>材质：</strong>胡桃木、亚克力板、金属、人造丝</p>
+    </div>
+    <div class="product-item">
+      <img src="images/ditan_polaroid.jpg" alt="我与地坛拍立得透光卡">
+      <h4>我与地坛投影透光卡／拍立得</h4>
+      <p><strong>定价：</strong>大尺寸15元／张，小尺寸10元／张</p>
+      <p><strong>规格：</strong>大：86mm × 108mm，小：54mm × 86mm</p>
+      <p><strong>材质：</strong>透明PVC、白卡纸</p>
     </div>
   </div>
+</div>
+
 </section>
 
 
