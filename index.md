@@ -132,7 +132,16 @@
       <li><strong>数字媒体中心：</strong>新媒体、技术、数据支持</li>
       <li><strong>商业运营中心：</strong>市场营销、财务管控</li>
     </ul>
-  </section>
+     <h3><i class="fas fa-lightbulb"></i> 团队优势</h3>
+      <ul>
+        <li>✅ 文化内涵的学术性保障</li>
+        <li>🎨 视觉呈现的艺术性表达</li>
+        <li>💻 数字传播的技术性支撑</li>
+        <li>📈 商业运营的科学性管理</li>
+      </ul>
+  <p>这支复合型团队将持续以专业能力推动文化创意产业的创新发展。</p>
+    </div>
+</section>
 
 <section class="product-gallery" id="products"> 
   <h2>产品展示</h2>
